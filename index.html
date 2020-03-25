@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Form - ComIT</title>
+  </head>
+  <body>
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+      <label for="name">Nombre Completo:</label>
+      <input type="text" name="name" id="name" required autofocus />
+      <label for="date-birth">Fecha de Nacimiento:</label>
+      <input type="date" name="date-birth" id="date-birth" required />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="ejemplo@gmail.com"
+      />
+      <button type="submit">ENVIAR</button>
+    </form>
+  </body>
+</html>

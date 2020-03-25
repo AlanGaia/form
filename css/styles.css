@@ -1,0 +1,31 @@
+form {
+  width: 90%;
+  background-color: #dfdfdf;
+  padding: 5px;
+  font-family: sans-serif;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 4%;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+input {
+  width: 95%;
+  padding: 5px;
+}
+
+button {
+  width: 99%;
+  margin-top: 30px;
+  background-color: blueviolet;
+  border-radius: 8px;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
